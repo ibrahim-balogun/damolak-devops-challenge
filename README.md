@@ -62,8 +62,8 @@ The pipeline triggers automatically and deploys the application.
 
 ### 5. Access the application
 
-http://YOUR_EC2_PUBLIC_IP:5000
-http://YOUR_EC2_PUBLIC_IP:5000/health
+http://18.201.214.189:5000
+http://18.201.214.189:5000/health
 
 ## Design Decisions
 
