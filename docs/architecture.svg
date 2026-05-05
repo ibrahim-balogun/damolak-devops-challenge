@@ -1,0 +1,62 @@
+<svg width="100%" viewBox="0 0 680 520" xmlns="http://www.w3.org/2000/svg">
+  <rect x="40" y="40" width="120" height="44" rx="8" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="0.5"/>
+  <text font-family="sans-serif" font-size="14" font-weight="500" x="100" y="67" text-anchor="middle">Developer</text>
+
+  <line x1="160" y1="62" x2="218" y2="62" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text font-family="sans-serif" font-size="12" x="189" y="55" text-anchor="middle" fill="#888">git push</text>
+
+  <rect x="220" y="40" width="130" height="44" rx="8" fill="#CEECF6" stroke="#534AB7" stroke-width="0.5"/>
+  <text font-family="sans-serif" font-size="14" font-weight="500" x="285" y="67" text-anchor="middle">GitHub</text>
+
+  <line x1="285" y1="84" x2="285" y2="138" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text font-family="sans-serif" font-size="12" x="310" y="114" fill="#888">triggers</text>
+
+  <rect x="180" y="140" width="210" height="56" rx="8" fill="#CEECF6" stroke="#534AB7" stroke-width="0.5"/>
+  <text font-family="sans-serif" font-size="14" font-weight="500" x="285" y="163" text-anchor="middle">GitHub Actions</text>
+  <text font-family="sans-serif" font-size="12" x="285" y="183" text-anchor="middle" fill="#534AB7">Build, test, deploy</text>
+
+  <line x1="390" y1="168" x2="448" y2="168" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text font-family="sans-serif" font-size="12" x="419" y="158" text-anchor="middle" fill="#888">push image</text>
+
+  <rect x="450" y="140" width="130" height="56" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+  <text font-family="sans-serif" font-size="14" font-weight="500" x="515" y="163" text-anchor="middle">AWS ECR</text>
+  <text font-family="sans-serif" font-size="12" x="515" y="183" text-anchor="middle" fill="#0F6E56">Container registry</text>
+
+  <path d="M285 196 L285 290 L378 290" fill="none" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text font-family="sans-serif" font-size="12" x="200" y="250" fill="#888">SSH deploy</text>
+
+  <path d="M515 196 L515 290 L502 290" fill="none" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <text font-family="sans-serif" font-size="12" x="520" y="250" fill="#888">pull image</text>
+
+  <rect x="40" y="260" width="600" height="180" rx="14" fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="6 4"/>
+  <text font-family="sans-serif" font-size="12" x="56" y="282" fill="#aaa">AWS VPC</text>
+
+  <rect x="220" y="290" width="240" height="60" rx="8" fill="#9FE1CB" stroke="#0F6E56" stroke-width="0.5"/>
+  <text font-family="sans-serif" font-size="14" font-weight="500" x="340" y="316" text-anchor="middle">AWS EC2</text>
+  <text font-family="sans-serif" font-size="12" x="340" y="336" text-anchor="middle" fill="#0F6E56">Flask app in Docker</text>
+
+  <rect x="80" y="360" width="120" height="56" rx="8" fill="#B5D4F4" stroke="#185FA5" stroke-width="0.5"/>
+  <text font-family="sans-serif" font-size="14" font-weight="500" x="140" y="383" text-anchor="middle">AWS S3</text>
+  <text font-family="sans-serif" font-size="12" x="140" y="401" text-anchor="middle" fill="#185FA5">Artifacts</text>
+
+  <rect x="480" y="360" width="140" height="56" rx="8" fill="#FAC775" stroke="#854F0B" stroke-width="0.5"/>
+  <text font-family="sans-serif" font-size="14" font-weight="500" x="550" y="383" text-anchor="middle">CloudWatch</text>
+  <text font-family="sans-serif" font-size="12" x="550" y="401" text-anchor="middle" fill="#854F0B">Monitoring, alerts</text>
+
+  <line x1="460" y1="330" x2="500" y2="362" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="220" y1="330" x2="180" y2="362" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <rect x="480" y="440" width="140" height="44" rx="8" fill="#F5C4B3" stroke="#993C1D" stroke-width="0.5"/>
+  <text font-family="sans-serif" font-size="13" font-weight="500" x="550" y="467" text-anchor="middle">SNS email alert</text>
+  <line x1="550" y1="416" x2="550" y2="438" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <line x1="340" y1="350" x2="340" y2="478" stroke="#888" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <rect x="270" y="480" width="140" height="34" rx="8" fill="#D3D1C7" stroke="#5F5E5A" stroke-width="0.5"/>
+  <text font-family="sans-serif" font-size="12" font-weight="500" x="340" y="502" text-anchor="middle">End user (port 5000)</text>
+
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#888" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+</svg>

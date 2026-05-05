@@ -3,6 +3,9 @@
 Production-ready application deployment using modern DevOps practices.
 
 ## Architecture Overview
+
+![Architecture Diagram](docs/architecture.svg)
+
 GitHub Actions CI/CD
 |
 v
